@@ -1,0 +1,35 @@
+@mixin clear-fix {
+  &:before, &:after{
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+
+@mixin margin($value) {
+  margin-right: $value;
+  margin-left: $value;
+}
+
+
+@mixin padding($value) {
+  padding-right: $value;
+  padding-left: $value;
+}
+
+
+@mixin stab-img-r {
+  .stab-img-r {
+    @include margin(auto);
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
+@mixin stab-collumn-list {
+  @for $i from 1 through $columns {
+    .stab-l-#{$i}, .stab-m-#{$i}, .stab-s-#{$i}, .stab-x-#{$i} { @extend %stab-collumn-list-style; }
+  }
+}
