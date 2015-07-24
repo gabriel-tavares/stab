@@ -1,0 +1,20 @@
+{
+  "name": "stab",
+  "version": "0.1.4",
+  "homepage": "https://github.com/caiokawasaki/stab",
+  "authors": [
+    "Caio Kawasaki <contato@caiokawasaki.com> (http://caiokawasaki.com)"
+  ],
+  "description": "Responsive CSS framework focused on agility, grids, page design and mobile first.",
+  "main": "gulpfile.js",
+  "moduleType": [
+    "node"
+  ],
+  "license": "ISC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "tests"
+  ]
+}
