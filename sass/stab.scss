@@ -1,5 +1,5 @@
-@import 'base/variables';
-@import 'base/mixins';
+@import 'stab/variables';
+@import 'stab/mixins';
 
 * {
   margin: 0;
@@ -13,4 +13,4 @@
 
 @include stab-img-r;
 
-@import 'base/grids';
+@import 'stab/grids';
