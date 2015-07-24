@@ -7,6 +7,7 @@
     "gulp": "*",
     "gulp-autoprefixer": "*",
     "gulp-minify-css": "*",
+    "gulp-rename": "*",
     "gulp-sass": "*"
   },
   "repository": {
