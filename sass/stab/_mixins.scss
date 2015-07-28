@@ -19,8 +19,8 @@
 }
 
 
-@mixin stab-img-r {
-  .stab-img-r {
+@mixin s-img-r {
+  .s-img-r {
     @include margin(auto);
     max-width: 100%;
     height: auto;
@@ -28,8 +28,8 @@
 }
 
 
-@mixin stab-collumn-list {
+@mixin s-collumn-list {
   @for $i from 1 through $columns {
-    .stab-l-#{$i}, .stab-m-#{$i}, .stab-s-#{$i}, .stab-x-#{$i} { @extend %stab-collumn-list-style; }
+    .s-l-#{$i}, .s-m-#{$i}, .s-s-#{$i}, .s-x-#{$i} { @extend %stab-collumn-list-style; }
   }
 }
