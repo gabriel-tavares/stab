@@ -30,6 +30,6 @@
 
 @mixin s-collumn-list {
   @for $i from 1 through $columns {
-    .s-l-#{$i}, .s-m-#{$i}, .s-s-#{$i}, .s-x-#{$i} { @extend %stab-collumn-list-style; }
+    .s-l-#{$i}, .s-m-#{$i}, .s-s-#{$i}, .s-x-#{$i} { @extend %s-collumn-list-style; }
   }
 }

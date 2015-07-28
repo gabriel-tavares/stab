@@ -33,7 +33,7 @@
 }
 
 
-%stab-collumn-list-style {
+%s-collumn-list-style {
   position: relative;
   float: left;
   @include padding(15px);
@@ -41,7 +41,7 @@
 }
 
 
-@include stab-collumn-list;
+@include s-collumn-list;
 
 
 @for $i from 1 through $columns {
