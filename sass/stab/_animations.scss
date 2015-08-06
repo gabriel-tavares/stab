@@ -1,0 +1,32 @@
+.s-animate{
+  animation-duration: 400ms;
+  animation-iteration-count: 1;
+
+  &.s-{
+    &fadeIn{
+      animation-name: fadeIn;
+    }
+
+    &fadeOut{
+      animation-name: fadeOut;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 2;
+  }
+}
