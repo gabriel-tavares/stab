@@ -8,6 +8,7 @@
   tap-highlight-color: transparent; }
 
 .s-img-r {
+  display: block;
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
@@ -164,6 +165,10 @@
     width: 91.66667%; }
   .s-x-12 {
     width: 100%; } }
+
+.s-center {
+  float: none;
+  margin: 0 auto; }
 
 .s-text-align-left {
   text-align: left; }
