@@ -21,6 +21,7 @@
 
 @mixin s-img-r {
   .s-img-r {
+    display: block;
     @include margin(auto);
     max-width: 100%;
     height: auto;
