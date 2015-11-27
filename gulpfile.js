@@ -12,6 +12,14 @@ gulp.task('scss', function() {
        .pipe(minifycss())
        .pipe(rename("stab.min.css"))
        .pipe(gulp.dest('assets/css'));
+
+   gulp.src('sass/stab-style.scss')
+       .pipe(sass())
+       .pipe(autoprefixer('last 20 version'))
+       .pipe(gulp.dest('assets/css'))
+       .pipe(minifycss())
+       .pipe(rename("stab-style.min.css"))
+       .pipe(gulp.dest('assets/css'));
 });
 
 gulp.task('watch', function() {
