@@ -6,18 +6,15 @@
   }
 }
 
-
 @mixin margin($value) {
   margin-right: $value;
   margin-left: $value;
 }
 
-
 @mixin padding($value) {
   padding-right: $value;
   padding-left: $value;
 }
-
 
 @mixin s-img-r {
   .s-img-r {
@@ -27,7 +24,6 @@
     height: auto;
   }
 }
-
 
 @mixin s-text-align($position) {
   .s-text-align-#{$position} {
@@ -52,7 +48,6 @@
     }
   }
 }
-
 
 @mixin s-collumn-list {
   @for $i from 1 through $columns {

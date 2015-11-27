@@ -6,13 +6,11 @@
   @include clear-fix;
 }
 
-
 .s-row {
   @include margin(-15px);
 
   @include clear-fix;
 }
-
 
 @media (max-width: $screen-m-max) {
   .s-cont {
@@ -32,7 +30,6 @@
   }
 }
 
-
 %s-collumn-list-style {
   position: relative;
   float: left;
@@ -40,16 +37,13 @@
   min-height: 1px;
 }
 
-
 @include s-collumn-list;
-
 
 @for $i from 1 through $columns {
   .s-l-#{$i} {
     width: ((100 / $columns) * $i) * 1%;
   }
 }
-
 
 @media (max-width: $screen-m-max) {
   @for $i from 1 through $columns {
@@ -59,7 +53,6 @@
   }
 }
 
-
 @media (max-width: $screen-s-max) {
   @for $i from 1 through $columns {
     .s-s-#{$i} {
@@ -67,7 +60,6 @@
     }
   }
 }
-
 
 @media (max-width: $screen-x-max) {
   @for $i from 1 through $columns {
