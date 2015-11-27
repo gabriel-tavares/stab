@@ -26,24 +26,24 @@
 }
 
 @mixin s-text-align($position) {
-  .s-text-align-#{$position} {
+  .s-text-#{$position} {
     text-align: $position;
   }
 
   @media (max-width: $screen-m-max) {
-    .s-text-align-m-#{$position} {
+    .s-text-m-#{$position} {
       text-align: $position;
     }
   }
 
   @media (max-width: $screen-s-max) {
-    .s-text-align-s-#{$position} {
+    .s-text-s-#{$position} {
       text-align: $position;
     }
   }
 
   @media (max-width: $screen-x-max) {
-    .s-text-align-x-#{$position} {
+    .s-text-x-#{$position} {
       text-align: $position;
     }
   }
