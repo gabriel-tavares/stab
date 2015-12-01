@@ -1,6 +1,6 @@
 {
   "name": "stab",
-  "version": "0.2.3",
+  "version": "0.2.5",
   "description": "Responsive CSS framework focused on agility, grids, page design and mobile first.",
   "main": "gulpfile.js",
   "dependencies": {
