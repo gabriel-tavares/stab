@@ -2,4 +2,20 @@
 
 body{
   background-color: $body-bg-color;
+  font-family: $default-font-family;
+}
+
+.s-form{
+  .s-form-item{
+    & > .item-title{}
+
+    &.text{
+      & > .item-input{}
+    }
+
+    &.radio{
+    }
+
+    & > .item-desc{}
+  }
 }
